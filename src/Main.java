@@ -8,7 +8,7 @@ public class Main {
         String numberName = "";
         int ones = number % 10;
         int tens = (number / 10) % 10;
-        int hundres = number / 100;
+        int hundres = (number / 100) % 10;
 
         if (number < 0 || number > 999) {
             System.out.println("Out of ability");
